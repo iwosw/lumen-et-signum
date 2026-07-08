@@ -1,0 +1,18 @@
+[alias]
+# Use as `cargo +stable test-host`; the default ESP toolchain targets Xtensa.
+test-host = "test --lib --target x86_64-pc-windows-msvc"
+
+[target.xtensa-esp32-none-elf]
+runner = "espflash flash --monitor --chip esp32"
+
+[env]
+
+[build]
+rustflags = [
+  "-C", "link-arg=-nostartfiles",
+]
+
+target = "xtensa-esp32-none-elf"
+
+[unstable]
+build-std = ["core"]
