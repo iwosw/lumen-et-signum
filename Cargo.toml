@@ -5,6 +5,7 @@ edition = "2024"
 description = "Desktop control panel, serial monitor, EspScript runner, and companion firmware for ESP32."
 readme = "README.md"
 repository = "https://github.com/iwosw/lumen-et-signum"
+license-file = "LICENSE"
 
 [dependencies]
 eframe = { version = "0.29", default-features = false, features = ["default_fonts", "glow"] }

@@ -3,6 +3,7 @@ edition      = "2024"
 name         = "esp32-rust-fw"
 rust-version = "1.88"
 version      = "0.1.0"
+license-file = "../LICENSE"
 
 [[bin]]
 name = "esp32-rust-fw"
