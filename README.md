@@ -1,6 +1,7 @@
 <p align="center">
   <img src="assets/lumen-et-signum-cover.png" alt="Lumen et Signum" width="320">
 </p>
+
 # Lumen et Signum
 
 Lumen et Signum - desktop-панель для ESP32: проверка платы, UART-монитор, запуск команд и EspScript, а также совместимая Rust-прошивка в `firmware/`.
